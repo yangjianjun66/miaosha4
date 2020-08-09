@@ -1,0 +1,16 @@
+server:
+  port: 9100
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/junsglwz/project-four
+          username: 18320646730
+          password: yangyangyang1680
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
